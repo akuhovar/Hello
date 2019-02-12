@@ -8,5 +8,5 @@ class HelloWorld():
             return f"Hello, {self.name}!"
 
 if __name__ == "__main__":
-    hw = HelloWorld(None)
+    hw = HelloWorld("Anton")
     print (hw.greeting())
